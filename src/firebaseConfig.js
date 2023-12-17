@@ -9,14 +9,13 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBMj0rZO8Bj6goJnnqL2N-Dxd4jbySS2L0",
-  authDomain: "mywebsiteapp-659ff.firebaseapp.com",
-  projectId: "mywebsiteapp-659ff",
-  storageBucket: "mywebsiteapp-659ff.appspot.com",
-  messagingSenderId: "619623727798",
-  appId: "1:619623727798:web:36e7d14ffd1bd765459c17"
+  apiKey: "AIzaSyBRtm6ndROQDJRj7jcPn7sWQbE9bAloZsM",
+  authDomain: "newsocial-44880.firebaseapp.com",
+  projectId: "newsocial-44880",
+  storageBucket: "newsocial-44880.appspot.com",
+  messagingSenderId: "1031298967705",
+  appId: "1:1031298967705:web:c2afa3ccdcfc1fa37d3008"
 };
-
 
 
 // Initialize Firebase

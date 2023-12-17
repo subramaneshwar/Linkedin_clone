@@ -9,13 +9,13 @@ function ProfleCard({ user }) {
 
     return (
 
-        <div className='w-[14rem]   bg-white border shadow-xl rounded-xl'>
+        <div className='w-[14rem]   bg-white border shadow-xl rounded-xl mt-2'>
             <div>
-                <div style={{ width: "200px", height: "200px" }} className=''>
+                <div style={{ width: "200px", height: "200px" }} className='mx-auto py-2'>
                     {
-                        user?.photoURL ? <img src={user?.photoURL} alt="" className='h-full  w-full rounded-xl p-2' />
+                        user?.photoURL ? <img src={user?.photoURL} alt="" className='h-full  w-full rounded-xl ' />
                             :
-                            <div className='h-full p-2'>
+                            <div className='h-full '>
                                 <div className="  relative inline-flex items-center justify-center  w-full  h-full overflow-hidden bg-blue-800 rounded-lg dark:bg-gray-600">
                                     <span className="font-medium  text-gray-600 dark:text-gray-300"><p className='text-5xl text-white'>{user?.email.toUpperCase()[0]}</p></span>
                                 </div>

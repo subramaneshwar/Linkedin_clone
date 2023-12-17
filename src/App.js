@@ -65,6 +65,7 @@ function App() {
         <Route path='/register' element={<Register/>} />
         <Route path='/' element={<ProtectedRoutes><HomeLayout/></ProtectedRoutes>} />
         <Route path='/profile' element={<ProtectedRoutes><ProfileLayout/></ProtectedRoutes>} />
+        <Route path='/profile/:id' element={<ProtectedRoutes><ProfileuserLayout/></ProtectedRoutes>} />
         <Route path='/search' element={<ProtectedRoutes><SearchPage/></ProtectedRoutes>} />
         <Route path='*' element={<h1>NotFound</h1>} />      
         </Routes>
